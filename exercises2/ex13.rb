@@ -11,4 +11,5 @@ contacts = {"Joe Smith" => {}, "Sally Johnson" => {}}
   contacts['Sally Johnson'][:phone] = contact_data[1][2]
 
 
-print contacts
+puts "Joe's email is #{contacts['Joe Smith'][:email]}."
+puts "Sally's phone number is #{contacts['Sally Johnson'][:phone]}
